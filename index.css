@@ -1,3 +1,45 @@
-body{
-    margin: 0;
+.box{
+    height: 420px;
+    width: 660px;
+    border-radius: 20px;
+    border: 1px solid rgb(75, 32, 218);
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(75, 32, 218);
+}
+.text{
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(75, 32, 218);
+    margin: 0px auto;
+    display: block;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+.action-btn{
+    height: 34px;
+    width: 133px;
+    font-size: 15px;
+    border-radius: 17px;
+    cursor: pointer;
+    border: 1px solid rgb(75, 32, 218);
+}
+
+.action-btn:hover{
+    color: #9cbad9;
+}
+.result{
+    margin:8px auto;
+    display: block;
+    height: 70px;
+    font-size: 20px;
+    text-align:center;
 }
