@@ -20,6 +20,36 @@
             <button class="action-btn" onclick="wordCount()">Word Count</button>
         </div>
     </div>
+    <script>
+        //FUNCTION FOR UPPERCASE//
+        function makeUppercase() {
+            const inputElement = document.getElementById("text")
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = inputElement.value.toUpperCase()
+        }
+        //FUNCTION FOR LOWERCSAE//
+        function makeLowerCase() {
+            const inputElement = document.getElementById("text")
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = inputElement.value.toLowerCase()
+        }
+        //FUNCTION FOR CHARACTER COUNT//
+        function charCount() {
+            const inputElement = document.getElementById("text")
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = ` Total Characters: ${inputElement.value.length}`
+        }
+        //FUNCTION FOR WORD COUNT//
+        function wordCount() {
+            const inputElement = document.getElementById("text")
+            const resultElement = document.getElementById("result")
+
+            resultElement.innerText = `Total Words: ${inputElement.value.split(" ").length}`
+        }
+    </script>
 </body>
 
 </html>
